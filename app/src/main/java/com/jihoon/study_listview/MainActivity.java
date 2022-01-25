@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.listview1);
         listView.setAdapter(adapter);
 
+
         // ListView에 Click 이벤트에 대한 리스너 설정.
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             // TODO : 파라미터에 대해서 찾아보기
